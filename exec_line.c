@@ -4,7 +4,7 @@
  * exec_line - finds builtins and commands
  *
  * @datash: data relevant (args)
- * Return: 1 on success.
+ * Return: cmd to be executed and 1 if null.
  */
 int exec_line(data_shell *datash)
 {

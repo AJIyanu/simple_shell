@@ -82,7 +82,7 @@ char *_strtok(char str[], const char *delim)
 		str_end = &str[i]; /*Store last address*/
 	}
 	str_start = splitted;
-	if (str_start == str_end) /*Reaching the end*/
+	if (str_start == str_end) /*never left  the end*/
 		return (NULL);
 
 	for (bool = 0; *splitted; splitted++)

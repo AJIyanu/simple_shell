@@ -5,7 +5,7 @@
  *
  * @input: input string
  * @i: index
- * Return: repetitions
+ * Return: Returns repetitions
  */
 int repeated_char(char *input, int i)
 {

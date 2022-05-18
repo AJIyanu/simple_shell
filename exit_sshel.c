@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * exit_shell - exits the simple shell
+ * exit_shell - exits the simple shell on errors maybe
  *
  * @datash: data relevant (status and args)
  * Return: Returns 0 on success.

@@ -49,7 +49,7 @@ void shell_loop(data_shell *datash)
 	loop = 1;
 	while (loop == 1)
 	{
-		write(STDIN_FILENO, "Boloo@AJ ", 4);
+		write(STDIN_FILENO, "Boloo@AJ ", 8);
 		input = read_line(&i_eof);
 		if (i_eof != -1)
 		{

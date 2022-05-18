@@ -4,7 +4,7 @@
  * _strcat - concatenate two strings
  * @dest: char pointer the dest of the copied str
  * @src: const char pointer the source of str
- * Return: Returns the destination string
+ * Return: pointer to the destination string
  */
 char *_strcat(char *dest, const char *src)
 {
@@ -46,7 +46,7 @@ char *_strcpy(char *dest, char *src)
  * _strcmp - Function that compares two strings.
  * @s1: type str compared
  * @s2: type str compared
- * Return: Always 0.
+ * Return: Always 0. sometimes 1/-1 if not same
  */
 int _strcmp(char *s1, char *s2)
 {

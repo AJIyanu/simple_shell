@@ -9,6 +9,8 @@
  * @ver_str: counter lines
  * Return: Returns error message
  */
+
+
 char *strcat_cd(data_shell *datash, char *msg, char *error, char *ver_str)
 {
 	char *illegal_flag;
@@ -35,8 +37,10 @@ char *strcat_cd(data_shell *datash, char *msg, char *error, char *ver_str)
 
 	_strcat(error, "\n");
 	_strcat(error, "\0");
+	
 	return (error);
 }
+
 
 /**
  * error_get_cd - error message for cd command in get_cd

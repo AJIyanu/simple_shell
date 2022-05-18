@@ -5,19 +5,19 @@
  * @n: type int number.
  * Return: Returns the Lenght of a number.
  */
-int get_len(int n)
+int get_len(int i)
 {
 	unsigned int n1;
 	int lenght = 1;
 
-	if (n < 0)
+	if (i < 0)
 	{
 		lenght++;
-		n1 = n * -1;
+		n1 = i * -1;
 	}
 	else
 	{
-		n1 = n;
+		n1 = i;
 	}
 	while (n1 > 9)
 	{

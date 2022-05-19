@@ -2,7 +2,7 @@
 
 /**
  * get_len - Get the length of a number.
- * @n: type int number.
+ * @i: type int number.
  * Return: Returns the Length of a number.
  */
 int get_len(int i)

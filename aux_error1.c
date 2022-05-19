@@ -37,7 +37,7 @@ char *strcat_cd(data_shell *datash, char *msg, char *error, char *ver_str)
 
 	_strcat(error, "\n");
 	_strcat(error, "\0");
-	
+
 	return (error);
 }
 
